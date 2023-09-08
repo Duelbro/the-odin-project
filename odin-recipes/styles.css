@@ -1,0 +1,31 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: green;
+}
+
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2:not(:last-of-type) {
+  color: white;
+  background-color: green;
+}
+
+h2:last-of-type {
+  font-style: italic;
+}
+
+img {
+  height: 300px;
+  width: auto;
+}
+
+ul {
+  background-color: linen;
+}
+
+ul > li {
+  color: black;
+}
