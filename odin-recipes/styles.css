@@ -3,6 +3,10 @@ body {
   color: green;
 }
 
+h1 {
+  text-align: center;
+}
+
 h1,
 h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -23,6 +27,20 @@ img {
 }
 
 ul {
+  background-color: linen;
+}
+
+ul.index {
+  background-color: brown;
+  padding: 1px 4px;
+  width: fit-content;
+  margin: auto;
+}
+
+ul.index > li {
+  list-style-type: none;
+  padding: 8px 16px;
+  margin: 4px 0px;
   background-color: linen;
 }
 
